@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* ========================================================
+                    banner part start
+========================================================= */
+.banner-part {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 200px 0;
+}
+.banner-part h1 {
+  font-size: 70px;
+  font-weight: 700;
+  width: 50%;
+  margin: 0 auto;
+}
+.banner-part p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.banner-part a {
+  text-decoration: none;
+  padding: 15px 40px;
+  background-color: #f59210;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* ========================================================
+                    banner part end
+========================================================= */
+
+/* =================================================================
+                        Plan-part start
+=================================================================== */
+#Plan-part {
+  margin-bottom: 50px;
+}
+#Plan-part .main {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 60px;
+  padding: 0 50px;
+}
+#Plan-part .title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+#Plan-part .title h2 {
+  text-transform: capitalize;
+  font-size: 50px;
+}
+#Plan-part .main .div1 {
+  width: 400px;
+  background-color: #94ff9d;
+  padding: 30px;
+  border-radius: 10px;
+}
+#Plan-part .main .div1 h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+#Plan-part .main .div1 p {
+  font-size: 20px;
+  color: #230a94;
+  margin-bottom: 20px;
+}
+#Plan-part .main .div1 img {
+  width: 60px;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+#Plan-part .main .div2 {
+  background-color: rgb(159, 133, 253);
+}
+#Plan-part .main .div3 {
+  background-color: #f7df90;
+}
+/* =================================================================
+                        Plan-part end
+=================================================================== */
+
+/* ========================================================
+                    update part start
+========================================================= */
+#update-part {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.update-title h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.update-title p {
+  font-size: 14px;
+  font-weight: 400;
+  width: 50%;
+  margin: 0 auto;
+}
+.amount {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.box {
+  padding: 60px;
+  background-color: #faf0e4;
+  margin-left: 30px;
+  border-radius: 5px;
+  margin-bottom: 70px;
+}
+.box h3 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.box200 {
+  background-color: #fdd1d1;
+  border: 2px solid #f84f4f;
+  color: #f84f4f;
+}
+hr {
+  height: 1px;
+  width: 70%;
+  background-color: #bababb;
+  margin: 30px auto;
+}
+.update-field p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #bababb;
+}
+.update-field a {
+  text-decoration: none;
+  padding: 15px 40px;
+  background-color: #f59210;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 90px;
+}
+/* ===================================================================
+                    update part end
+====================================================================== */
+/* ====================================================================
+                    Volunteer part start
+======================================================================= */
+#volunteer-part {
+  background-image: url(../images/volunteer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0 200px 150px;
+}
+.volunteer h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+.volunteer span {
+  font-size: 40px;
+  font-weight: 600;
+  color: #f59210;
+}
+.volunteer p {
+  font-size: 25px;
+  font-weight: 400;
+  width: 40%;
+  margin-bottom: 50px;
+  color: #00000;
+}
+.volunteer a {
+  padding: 15px 40px;
+  background-color: #f59210;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+/* ====================================================================
+                        Volunteer part start
+==================================================================== */
+/* ===================================================================
+                         submit part start
+====================================================================== */
+#submit-part {
+  margin-top: 70px;
+}
+.submit-title {
+  text-align: center;
+}
+.submit-title h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.submit-title p {
+  font-size: 15px;
+  font-weight: 400;
+  width: 50%;
+  margin: 0 auto;
+}
+#submit-part .box {
+  background-color: #faf0e4;
+  border-radius: 5px;
+  width: 50%;
+  margin-left: 400px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.input {
+  padding: 5px 40px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 6px 35px;
+  background-color: #f59210;
+  border: 1px solid #f59210;
+  color: white;
+}
+/* ===============================================================
+                    submit part end
+================================================================== */
+/* ===================================================================
+                    footer part start
+==================================================================== */
+footer {
+  background: #0a0826;
+  text-align: center;
+  padding: 30px 0;
+}
+footer .footer-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #f59210;
+}
+footer .footer-title h3,
+h4 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}
+/* ===============================================================
+                    footer part end
+=============================================================== */
